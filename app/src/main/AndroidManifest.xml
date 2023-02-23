@@ -33,8 +33,8 @@
         tools:node="remove" />
 
     <queries>
-        <package android:name="com.goodwy.dialer.debug" />
-        <package android:name="com.goodwy.dialer" />
+        <package android:name="com.leos.phone" />
+        <package android:name="com.leos.phone" />
         <package android:name="com.goodwy.contacts.debug" />
         <package android:name="com.goodwy.contacts" />
         <package android:name="com.goodwy.smsmessenger.debug" />
@@ -48,7 +48,7 @@
         android:allowBackup="true"
         android:appCategory="productivity"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_launcher_name"
+        android:label="LeOS-Phone"
         android:roundIcon="@mipmap/ic_launcher"
         android:theme="@style/AppTheme">
 
@@ -170,7 +170,7 @@
         <activity
             android:name=".activities.DialerActivity"
             android:exported="true"
-            android:label="@string/dialer"
+            android:label="LeOS-Phone"
             android:theme="@style/Theme.Transparent">
 
             <intent-filter>

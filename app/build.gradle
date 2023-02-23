@@ -13,12 +13,11 @@ android {
 
     defaultConfig {
         applicationId "com.leos.phone"
-        minSdkVersion 23
+        minSdkVersion 26
         targetSdkVersion 33
         versionCode 001
         versionName "1.6.1"
-        setProperty("archivesBaseName", "dialer")
-        buildConfigField("String", "GOOGLE_PLAY_LICENSING_KEY", "\"${getProperty(getProperties('local.properties'), 'GOOGLE_PLAY_LICENSE_KEY')}\"")
+       buildConfigField("String", "GOOGLE_PLAY_LICENSING_KEY", "\"${getProperty(getProperties('local.properties'), 'GOOGLE_PLAY_LICENSE_KEY')}\"")
         buildConfigField("String", "PRODUCT_ID_X1", "\"${getProperty(getProperties('local.properties'), 'PRODUCT_ID_X1')}\"")
         buildConfigField("String", "PRODUCT_ID_X2", "\"${getProperty(getProperties('local.properties'), 'PRODUCT_ID_X2')}\"")
         buildConfigField("String", "PRODUCT_ID_X3", "\"${getProperty(getProperties('local.properties'), 'PRODUCT_ID_X3')}\"")
