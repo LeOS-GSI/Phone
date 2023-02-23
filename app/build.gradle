@@ -12,11 +12,11 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.goodwy.dialer"
+        applicationId "com.leos.phone"
         minSdkVersion 23
         targetSdkVersion 33
-        versionCode 310
-        versionName "3.1.0"
+        versionCode 001
+        versionName "1.6.1"
         setProperty("archivesBaseName", "dialer")
         buildConfigField("String", "GOOGLE_PLAY_LICENSING_KEY", "\"${getProperty(getProperties('local.properties'), 'GOOGLE_PLAY_LICENSE_KEY')}\"")
         buildConfigField("String", "PRODUCT_ID_X1", "\"${getProperty(getProperties('local.properties'), 'PRODUCT_ID_X1')}\"")
@@ -37,7 +37,7 @@ android {
 
     buildTypes {
         debug {
-            applicationIdSuffix ".debug"
+            applicationIdSuffix ""
         }
         release {
             minifyEnabled true

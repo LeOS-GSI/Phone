@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_g">Right Dialer</string>
+    <string name="app_name_g">LeOS-Phone</string>
     <string name="transparent_call_screen_g">透明通話螢幕</string>
     <string name="call_back_g">叫</string>
     <string name="missed_call_g">未接來電</string>
