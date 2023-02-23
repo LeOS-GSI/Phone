@@ -71,12 +71,6 @@
         </activity>
 
         <activity
-            android:name="com.goodwy.commons.activities.PurchaseActivity"
-            android:exported="false"
-            android:label=""
-            android:parentActivityName=".activities.MainActivity" />
-
-        <activity
             android:name="com.goodwy.commons.activities.AboutActivity"
             android:exported="false"
             android:label="@string/about"
