@@ -1,0 +1,684 @@
+diff --git a/app/src/main/kotlin/com/goodwy/dialer/activities/DialerActivity.kt b/app/src/main/kotlin/com/goodwy/dialer/activities/DialerActivity.kt
+index 855033c..39cd164 100755
+--- a/app/src/main/kotlin/com/goodwy/dialer/activities/DialerActivity.kt
++++ b/app/src/main/kotlin/com/goodwy/dialer/activities/DialerActivity.kt
+@@ -21,7 +21,7 @@ class DialerActivity : SimpleActivity() {
+         if (intent.action == Intent.ACTION_CALL && intent.data != null) {
+             callNumber = intent.data
+ 
+-            // make sure Simple Dialer is the default Phone app before initiating an outgoing call
++            // make sure LeOS-Phone is the default Phone app before initiating an outgoing call
+             if (!isDefaultDialer()) {
+                 launchSetDefaultDialerIntent()
+             } else {
+diff --git a/app/src/main/res/values-ar/goodwy.xml b/app/src/main/res/values-ar/goodwy.xml
+index e7dd272..3e8e75f 100755
+--- a/app/src/main/res/values-ar/goodwy.xml
++++ b/app/src/main/res/values-ar/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">شاشة مكالمة شفافة</string>
+     <string name="call_back_g">دعا</string>
+     <string name="missed_call_g">مكالمة فائتة</string>
+diff --git a/app/src/main/res/values-ar/strings.xml b/app/src/main/res/values-ar/strings.xml
+index d4a222b..341df37 100644
+--- a/app/src/main/res/values-ar/strings.xml
++++ b/app/src/main/res/values-ar/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Dialer</string>
+     <string name="default_phone_app_prompt">Please make this app the default Phone app</string>
+     <string name="allow_displaying_over_other_apps">Please allow displaying over other apps for reliable behaviour</string>
+diff --git a/app/src/main/res/values-az/goodwy.xml b/app/src/main/res/values-az/goodwy.xml
+index 5d3ea41..d091042 100755
+--- a/app/src/main/res/values-az/goodwy.xml
++++ b/app/src/main/res/values-az/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Şəffaf Zəng Ekranı</string>
+     <string name="call_back_g">Geri zəng et</string>
+     <string name="missed_call_g">Buraxılmış zəng</string>
+diff --git a/app/src/main/res/values-az/strings.xml b/app/src/main/res/values-az/strings.xml
+index d4a222b..341df37 100644
+--- a/app/src/main/res/values-az/strings.xml
++++ b/app/src/main/res/values-az/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Dialer</string>
+     <string name="default_phone_app_prompt">Please make this app the default Phone app</string>
+     <string name="allow_displaying_over_other_apps">Please allow displaying over other apps for reliable behaviour</string>
+diff --git a/app/src/main/res/values-be/goodwy.xml b/app/src/main/res/values-be/goodwy.xml
+index e9f466e..26abf97 100755
+--- a/app/src/main/res/values-be/goodwy.xml
++++ b/app/src/main/res/values-be/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Празрысты экран выкліку</string>
+     <string name="call_back_g">Ператэлефанаваць</string>
+     <string name="missed_call_g">Прапушчаны выклік</string>
+diff --git a/app/src/main/res/values-be/strings.xml b/app/src/main/res/values-be/strings.xml
+index 913e3bc..7287a31 100644
+--- a/app/src/main/res/values-be/strings.xml
++++ b/app/src/main/res/values-be/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Тэлефон</string>
+     <string name="default_phone_app_prompt">Зрабіце гэта прыкладанне стандартным для тэлефонных выклікаў</string>
+     <string name="allow_displaying_over_other_apps">Дазвольце паказ над іншымі прыкладаннямі для надзейнай працы</string>
+diff --git a/app/src/main/res/values-bg/goodwy.xml b/app/src/main/res/values-bg/goodwy.xml
+index 5607855..6048934 100755
+--- a/app/src/main/res/values-bg/goodwy.xml
++++ b/app/src/main/res/values-bg/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Прозрачен екран за обаждания</string>
+     <string name="call_back_g">Обаждам се</string>
+     <string name="missed_call_g">Пропуснато обаждане</string>
+diff --git a/app/src/main/res/values-ca/goodwy.xml b/app/src/main/res/values-ca/goodwy.xml
+index 4bbbe1a..7f6c539 100755
+--- a/app/src/main/res/values-ca/goodwy.xml
++++ b/app/src/main/res/values-ca/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Pantalla de trucada transparent</string>
+     <string name="call_back_g">Cridar</string>
+     <string name="missed_call_g">Trucada perduda</string>
+diff --git a/app/src/main/res/values-ca/strings.xml b/app/src/main/res/values-ca/strings.xml
+index 82f34db..394866a 100644
+--- a/app/src/main/res/values-ca/strings.xml
++++ b/app/src/main/res/values-ca/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Marcador</string>
+     <string name="default_phone_app_prompt">Fes que aquesta aplicació sigui l\'aplicació predeterminada de telèfon</string>
+     <string name="allow_displaying_over_other_apps">Permeteu la visualització sobre d\'altres aplicacions per a un comportament fiable</string>
+diff --git a/app/src/main/res/values-cs/goodwy.xml b/app/src/main/res/values-cs/goodwy.xml
+index 6563825..7a25332 100755
+--- a/app/src/main/res/values-cs/goodwy.xml
++++ b/app/src/main/res/values-cs/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Průhledná obrazovka hovoru</string>
+     <string name="call_back_g">Zavolat</string>
+     <string name="missed_call_g">Zmeškaný hovor</string>
+diff --git a/app/src/main/res/values-da/goodwy.xml b/app/src/main/res/values-da/goodwy.xml
+index 17fc5bf..7f31a64 100755
+--- a/app/src/main/res/values-da/goodwy.xml
++++ b/app/src/main/res/values-da/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Gennemsigtig opkaldsskærm</string>
+     <string name="call_back_g">Kalde</string>
+     <string name="missed_call_g">Ubesvaret opkald</string>
+diff --git a/app/src/main/res/values-da/strings.xml b/app/src/main/res/values-da/strings.xml
+index 7edceaa..3b23f9a 100644
+--- a/app/src/main/res/values-da/strings.xml
++++ b/app/src/main/res/values-da/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Opkald</string>
+     <string name="default_phone_app_prompt">Vælg venligst denne app som standard til opkald</string>
+     <string name="allow_displaying_over_other_apps">Tillad venligst visning over andre apps for pålidelig adfærd</string>
+diff --git a/app/src/main/res/values-de/goodwy.xml b/app/src/main/res/values-de/goodwy.xml
+index d9c1088..0c8ba46 100755
+--- a/app/src/main/res/values-de/goodwy.xml
++++ b/app/src/main/res/values-de/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Transparenter Anrufbildschirm</string>
+     <string name="call_back_g">Rufen</string>
+     <string name="missed_call_g">Verpasster Anruf</string>
+diff --git a/app/src/main/res/values-de/strings.xml b/app/src/main/res/values-de/strings.xml
+index 75493f7..8199104 100644
+--- a/app/src/main/res/values-de/strings.xml
++++ b/app/src/main/res/values-de/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Schlichtes Telefon</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Telefon</string>
+     <string name="default_phone_app_prompt">Bitte machen Sie diese Anwendung zur Standard-Telefonanwendung</string>
+     <string name="allow_displaying_over_other_apps">Bitte erlauben Sie die Anzeige über andere Anwendungen für ein zuverlässiges Verhalten</string>
+diff --git a/app/src/main/res/values-el/goodwy.xml b/app/src/main/res/values-el/goodwy.xml
+index bf38c1e..5924c4a 100755
+--- a/app/src/main/res/values-el/goodwy.xml
++++ b/app/src/main/res/values-el/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Διαφανής οθόνη κλήσεων</string>
+     <string name="call_back_g">Τηλεφωνώ</string>
+     <string name="missed_call_g">Αναπάντητη κλήση</string>
+diff --git a/app/src/main/res/values-eo/goodwy.xml b/app/src/main/res/values-eo/goodwy.xml
+index b3767ef..3c9f2b5 100755
+--- a/app/src/main/res/values-eo/goodwy.xml
++++ b/app/src/main/res/values-eo/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Travidebla Voka Ekrano</string>
+     <string name="call_back_g">Voki reen</string>
+     <string name="missed_call_g">Maltrafita voko</string>
+diff --git a/app/src/main/res/values-eo/strings.xml b/app/src/main/res/values-eo/strings.xml
+index 2b75aad..d0c1e92 100644
+--- a/app/src/main/res/values-eo/strings.xml
++++ b/app/src/main/res/values-eo/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Dialer</string>
+     <string name="default_phone_app_prompt">Please make this app the default Phone app</string>
+     <string name="allow_displaying_over_other_apps">Please allow displaying over other apps for reliable behaviour</string>
+diff --git a/app/src/main/res/values-es/goodwy.xml b/app/src/main/res/values-es/goodwy.xml
+index f67bb87..ab674f7 100755
+--- a/app/src/main/res/values-es/goodwy.xml
++++ b/app/src/main/res/values-es/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Pantalla de llamada transparente</string>
+     <string name="call_back_g">Llamar</string>
+     <string name="missed_call_g">Llamada perdida</string>
+diff --git a/app/src/main/res/values-et/goodwy.xml b/app/src/main/res/values-et/goodwy.xml
+index 4d69b88..706c62c 100755
+--- a/app/src/main/res/values-et/goodwy.xml
++++ b/app/src/main/res/values-et/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Läbipaistev kõneekraan</string>
+     <string name="call_back_g">Kutsuma</string>
+     <string name="missed_call_g">Vastamata kõne</string>
+diff --git a/app/src/main/res/values-fi/goodwy.xml b/app/src/main/res/values-fi/goodwy.xml
+index 6dee821..15f0aac 100755
+--- a/app/src/main/res/values-fi/goodwy.xml
++++ b/app/src/main/res/values-fi/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Läpinäkyvä puhelunäyttö</string>
+     <string name="call_back_g">Kutsua</string>
+     <string name="missed_call_g">Vastaamaton puhelu</string>
+diff --git a/app/src/main/res/values-fr/goodwy.xml b/app/src/main/res/values-fr/goodwy.xml
+index 9aaa482..18d507d 100755
+--- a/app/src/main/res/values-fr/goodwy.xml
++++ b/app/src/main/res/values-fr/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Écran d’appel transparent</string>
+     <string name="call_back_g">Appeler</string>
+     <string name="missed_call_g">Appel manqué</string>
+diff --git a/app/src/main/res/values-gl/goodwy.xml b/app/src/main/res/values-gl/goodwy.xml
+index 4c5aa82..de5db44 100755
+--- a/app/src/main/res/values-gl/goodwy.xml
++++ b/app/src/main/res/values-gl/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Pantalla de chamada transparente</string>
+     <string name="call_back_g">Devolver a chamada</string>
+     <string name="missed_call_g">Chamada perdida</string>
+diff --git a/app/src/main/res/values-gl/strings.xml b/app/src/main/res/values-gl/strings.xml
+index 4b7219f..33322e8 100644
+--- a/app/src/main/res/values-gl/strings.xml
++++ b/app/src/main/res/values-gl/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Marcador</string>
+     <string name="default_phone_app_prompt">Fai que sexa a aplición do Teléfono por predeterminada</string>
+     <string name="allow_displaying_over_other_apps">Permite mostrala por riba doutras aplicacións para un comportamento fiable</string>
+diff --git a/app/src/main/res/values-hr/goodwy.xml b/app/src/main/res/values-hr/goodwy.xml
+index 7eb3b71..e93f8a9 100755
+--- a/app/src/main/res/values-hr/goodwy.xml
++++ b/app/src/main/res/values-hr/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Prozirni zaslon poziva</string>
+     <string name="call_back_g">Poziv</string>
+     <string name="missed_call_g">Propušteni poziv</string>
+diff --git a/app/src/main/res/values-hu/goodwy.xml b/app/src/main/res/values-hu/goodwy.xml
+index b2e6161..e31896f 100755
+--- a/app/src/main/res/values-hu/goodwy.xml
++++ b/app/src/main/res/values-hu/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Átlátszó hívás képernyő</string>
+     <string name="call_back_g">Hív</string>
+     <string name="missed_call_g">Nem fogadott hívás</string>
+diff --git a/app/src/main/res/values-in/goodwy.xml b/app/src/main/res/values-in/goodwy.xml
+index e46d13c..57ed3fd 100755
+--- a/app/src/main/res/values-in/goodwy.xml
++++ b/app/src/main/res/values-in/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Layar Panggilan Transparan</string>
+     <string name="call_back_g">Menelepon kembali</string>
+     <string name="missed_call_g">Panggilan tidak terjawab</string>
+diff --git a/app/src/main/res/values-in/strings.xml b/app/src/main/res/values-in/strings.xml
+index 7bbf0a1..9b4d305 100644
+--- a/app/src/main/res/values-in/strings.xml
++++ b/app/src/main/res/values-in/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Dialer</string>
+     <string name="default_phone_app_prompt">Mohon buat aplikasi ini sebagai aplikasi Telepon bawaan</string>
+     <string name="allow_displaying_over_other_apps">Mohon izinkan tampilkan di atas aplikasi lain untuk perilaku yang andal</string>
+diff --git a/app/src/main/res/values-it/goodwy.xml b/app/src/main/res/values-it/goodwy.xml
+index 696d1f9..f71a824 100755
+--- a/app/src/main/res/values-it/goodwy.xml
++++ b/app/src/main/res/values-it/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Schermata di chiamata trasparente</string>
+     <string name="call_back_g">Chiamare</string>
+     <string name="missed_call_g">Chiamata persa</string>
+diff --git a/app/src/main/res/values-iw/goodwy.xml b/app/src/main/res/values-iw/goodwy.xml
+index be0bd27..2b1ead9 100755
+--- a/app/src/main/res/values-iw/goodwy.xml
++++ b/app/src/main/res/values-iw/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">מסך שיחה שקוף</string>
+     <string name="call_back_g">טלפן</string>
+     <string name="missed_call_g">שיחה שלא נענתה</string>
+diff --git a/app/src/main/res/values-ja/goodwy.xml b/app/src/main/res/values-ja/goodwy.xml
+index ef73c3f..b0c4a45 100755
+--- a/app/src/main/res/values-ja/goodwy.xml
++++ b/app/src/main/res/values-ja/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">透過的な通話画面</string>
+     <string name="call_back_g">呼び出し</string>
+     <string name="missed_call_g">不在着信</string>
+diff --git a/app/src/main/res/values-lt/goodwy.xml b/app/src/main/res/values-lt/goodwy.xml
+index b6fc950..667b957 100755
+--- a/app/src/main/res/values-lt/goodwy.xml
++++ b/app/src/main/res/values-lt/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Skaidrus skambučių ekranas</string>
+     <string name="call_back_g">Šaukti</string>
+     <string name="missed_call_g">Praleistas skambutis</string>
+diff --git a/app/src/main/res/values-ml/goodwy.xml b/app/src/main/res/values-ml/goodwy.xml
+index c980bff..0e7bac8 100755
+--- a/app/src/main/res/values-ml/goodwy.xml
++++ b/app/src/main/res/values-ml/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">സുതാര്യമായ കോൾ സ്ക്രീൻ</string>
+     <string name="call_back_g">തിരിച്ചുവിളിക്കുക</string>
+     <string name="missed_call_g">മിസ്ഡ് കോൾ</string>
+diff --git a/app/src/main/res/values-ml/strings.xml b/app/src/main/res/values-ml/strings.xml
+index d7ae192..5c2a18d 100644
+--- a/app/src/main/res/values-ml/strings.xml
++++ b/app/src/main/res/values-ml/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">ഡയലർ</string>
+     <string name="default_phone_app_prompt">Please make this app the default Phone app</string>
+     <string name="allow_displaying_over_other_apps">Please allow displaying over other apps for reliable behaviour</string>
+diff --git a/app/src/main/res/values-nb-rNO/goodwy.xml b/app/src/main/res/values-nb-rNO/goodwy.xml
+index 82f503c..28d1cad 100755
+--- a/app/src/main/res/values-nb-rNO/goodwy.xml
++++ b/app/src/main/res/values-nb-rNO/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Gjennomsiktig samtaleskjerm</string>
+     <string name="call_back_g">Kalle</string>
+     <string name="missed_call_g">Tapte anrop</string>
+diff --git a/app/src/main/res/values-nl/goodwy.xml b/app/src/main/res/values-nl/goodwy.xml
+index 7342d11..6eb73f8 100755
+--- a/app/src/main/res/values-nl/goodwy.xml
++++ b/app/src/main/res/values-nl/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Transparant oproepscherm</string>
+     <string name="call_back_g">Roepen</string>
+     <string name="missed_call_g">Gemiste oproep</string>
+diff --git a/app/src/main/res/values-pa-rPK/goodwy.xml b/app/src/main/res/values-pa-rPK/goodwy.xml
+index cbce4f7..2fd4561 100644
+--- a/app/src/main/res/values-pa-rPK/goodwy.xml
++++ b/app/src/main/res/values-pa-rPK/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Transparent Call Screen</string>
+     <string name="call_back_g">Call back</string>
+     <string name="missed_call_g">Missed call</string>
+diff --git a/app/src/main/res/values-pl/goodwy.xml b/app/src/main/res/values-pl/goodwy.xml
+index 32b2de7..58f71c2 100755
+--- a/app/src/main/res/values-pl/goodwy.xml
++++ b/app/src/main/res/values-pl/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Przezroczysty ekran połączenia</string>
+     <string name="call_back_g">Nazwać</string>
+     <string name="missed_call_g">Nieodebranych</string>
+diff --git a/app/src/main/res/values-pt-rBR/goodwy.xml b/app/src/main/res/values-pt-rBR/goodwy.xml
+index fdc6609..e2b3e1d 100755
+--- a/app/src/main/res/values-pt-rBR/goodwy.xml
++++ b/app/src/main/res/values-pt-rBR/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Tela de chamada transparente</string>
+     <string name="call_back_g">Chamar</string>
+     <string name="missed_call_g">Chamada perdida</string>
+diff --git a/app/src/main/res/values-pt/goodwy.xml b/app/src/main/res/values-pt/goodwy.xml
+index fdc6609..e2b3e1d 100755
+--- a/app/src/main/res/values-pt/goodwy.xml
++++ b/app/src/main/res/values-pt/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Tela de chamada transparente</string>
+     <string name="call_back_g">Chamar</string>
+     <string name="missed_call_g">Chamada perdida</string>
+diff --git a/app/src/main/res/values-pt/strings.xml b/app/src/main/res/values-pt/strings.xml
+index 42997f9..afc4d39 100644
+--- a/app/src/main/res/values-pt/strings.xml
++++ b/app/src/main/res/values-pt/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Marcador</string>
+     <string name="default_phone_app_prompt">Por favor, faça deste aplicativo o aplicativo de telefone padrão</string>
+     <string name="allow_displaying_over_other_apps">Por favor, permita exibir sobre outros aplicativos para um comportamento confiável</string>
+diff --git a/app/src/main/res/values-ro/goodwy.xml b/app/src/main/res/values-ro/goodwy.xml
+index 290525d..e25343d 100755
+--- a/app/src/main/res/values-ro/goodwy.xml
++++ b/app/src/main/res/values-ro/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Ecran de apel transparent</string>
+     <string name="call_back_g">Chema</string>
+     <string name="missed_call_g">Apel ratat</string>
+diff --git a/app/src/main/res/values-ru/goodwy.xml b/app/src/main/res/values-ru/goodwy.xml
+index de5e7b2..3a5fc06 100755
+--- a/app/src/main/res/values-ru/goodwy.xml
++++ b/app/src/main/res/values-ru/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Прозрачный фон экрана звонков</string>
+     <string name="call_back_g">Перезвонить</string>
+     <string name="missed_call_g">Пропущенный звонок</string>
+diff --git a/app/src/main/res/values-sk/goodwy.xml b/app/src/main/res/values-sk/goodwy.xml
+index 6549db7..212b002 100755
+--- a/app/src/main/res/values-sk/goodwy.xml
++++ b/app/src/main/res/values-sk/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Priehľadná obrazovka hovoru</string>
+     <string name="call_back_g">Zavolať</string>
+     <string name="missed_call_g">Zmeškaný hovor</string>
+diff --git a/app/src/main/res/values-sl/goodwy.xml b/app/src/main/res/values-sl/goodwy.xml
+index cbce4f7..2fd4561 100644
+--- a/app/src/main/res/values-sl/goodwy.xml
++++ b/app/src/main/res/values-sl/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Transparent Call Screen</string>
+     <string name="call_back_g">Call back</string>
+     <string name="missed_call_g">Missed call</string>
+diff --git a/app/src/main/res/values-sl/strings.xml b/app/src/main/res/values-sl/strings.xml
+index 8879f60..886a7ba 100644
+--- a/app/src/main/res/values-sl/strings.xml
++++ b/app/src/main/res/values-sl/strings.xml
+@@ -1,5 +1,5 @@
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Telefon</string>
+     <string name="default_phone_app_prompt">Prosimo, nastavite to aplikacijo za privzeto telefonsko aplikacijo</string>
+     <string name="allow_displaying_over_other_apps">Prosimo, dovolite prikaz nad drugimi aplikacijami za zanesljivo obnašanje</string>
+diff --git a/app/src/main/res/values-sr/goodwy.xml b/app/src/main/res/values-sr/goodwy.xml
+index cbce4f7..2fd4561 100644
+--- a/app/src/main/res/values-sr/goodwy.xml
++++ b/app/src/main/res/values-sr/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Transparent Call Screen</string>
+     <string name="call_back_g">Call back</string>
+     <string name="missed_call_g">Missed call</string>
+diff --git a/app/src/main/res/values-sv/goodwy.xml b/app/src/main/res/values-sv/goodwy.xml
+index 653a702..9713514 100755
+--- a/app/src/main/res/values-sv/goodwy.xml
++++ b/app/src/main/res/values-sv/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Transparent samtalsskärm</string>
+     <string name="call_back_g">Kalla</string>
+     <string name="missed_call_g">Missat samtal</string>
+diff --git a/app/src/main/res/values-th/goodwy.xml b/app/src/main/res/values-th/goodwy.xml
+index e6d0690..c137cca 100755
+--- a/app/src/main/res/values-th/goodwy.xml
++++ b/app/src/main/res/values-th/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">หน้าจอการโทรแบบโปร่งใส</string>
+     <string name="call_back_g">เรียก</string>
+     <string name="missed_call_g">สายที่ไม่ได้รับ</string>
+diff --git a/app/src/main/res/values-th/strings.xml b/app/src/main/res/values-th/strings.xml
+index d4a222b..341df37 100644
+--- a/app/src/main/res/values-th/strings.xml
++++ b/app/src/main/res/values-th/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Dialer</string>
+     <string name="default_phone_app_prompt">Please make this app the default Phone app</string>
+     <string name="allow_displaying_over_other_apps">Please allow displaying over other apps for reliable behaviour</string>
+diff --git a/app/src/main/res/values-tr/goodwy.xml b/app/src/main/res/values-tr/goodwy.xml
+index 9e828fc..2d40c98 100755
+--- a/app/src/main/res/values-tr/goodwy.xml
++++ b/app/src/main/res/values-tr/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Şeffaf Arama Ekranı</string>
+     <string name="call_back_g">Çağırmak</string>
+     <string name="missed_call_g">Cevapsız çağrı</string>
+diff --git a/app/src/main/res/values-uk/goodwy.xml b/app/src/main/res/values-uk/goodwy.xml
+index 7d1e5fb..d86d974 100755
+--- a/app/src/main/res/values-uk/goodwy.xml
++++ b/app/src/main/res/values-uk/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Прозорий фон екрану дзвінків</string>
+     <string name="call_back_g">Передзвонити</string>
+     <string name="missed_call_g">Пропущений дзвінок</string>
+diff --git a/app/src/main/res/values-zh-rCN/goodwy.xml b/app/src/main/res/values-zh-rCN/goodwy.xml
+index 2a37878..6fb132b 100755
+--- a/app/src/main/res/values-zh-rCN/goodwy.xml
++++ b/app/src/main/res/values-zh-rCN/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">透明通話螢幕</string>
+     <string name="call_back_g">叫</string>
+     <string name="missed_call_g">未接來電</string>
+diff --git a/app/src/main/res/values-zh-rTW/goodwy.xml b/app/src/main/res/values-zh-rTW/goodwy.xml
+index 2a37878..6fb132b 100755
+--- a/app/src/main/res/values-zh-rTW/goodwy.xml
++++ b/app/src/main/res/values-zh-rTW/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">透明通話螢幕</string>
+     <string name="call_back_g">叫</string>
+     <string name="missed_call_g">未接來電</string>
+diff --git a/app/src/main/res/values-zh-rTW/strings.xml b/app/src/main/res/values-zh-rTW/strings.xml
+index 681e3eb..40f44a1 100644
+--- a/app/src/main/res/values-zh-rTW/strings.xml
++++ b/app/src/main/res/values-zh-rTW/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Dialer</string>
+     <string name="default_phone_app_prompt">請將本 app 設為預設的電話 app</string>
+     <string name="allow_displaying_over_other_apps">Please allow displaying over other apps for reliable behaviour</string>
+diff --git a/app/src/main/res/values/goodwy.xml b/app/src/main/res/values/goodwy.xml
+index 9ebb852..36930c3 100755
+--- a/app/src/main/res/values/goodwy.xml
++++ b/app/src/main/res/values/goodwy.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name_g">Right Dialer</string>
++    <string name="app_name_g">LeOS-Phone</string>
+     <string name="transparent_call_screen_g">Transparent Call Screen</string>
+     <string name="call_back_g">Call back</string>
+     <string name="missed_call_g">Missed call</string>
+diff --git a/app/src/main/res/values/strings.xml b/app/src/main/res/values/strings.xml
+index 96b010d..bc5e0c6 100644
+--- a/app/src/main/res/values/strings.xml
++++ b/app/src/main/res/values/strings.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <string name="app_name">Simple Dialer</string>
++    <string name="app_name">LeOS-Phone</string>
+     <string name="app_launcher_name">Dialer</string>
+     <string name="default_phone_app_prompt">Please make this app the default Phone app</string>
+     <string name="allow_displaying_over_other_apps">Please allow displaying over other apps for reliable behaviour</string>
