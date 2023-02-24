@@ -216,12 +216,12 @@
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/menu/menu_call_history.xml"
     },
     {
-        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-mdpi_ic_launcher_1_round.png.flat",
-        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-mdpi/ic_launcher_1_round.png"
-    },
-    {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-mdpi_ic_launcher_blue_grey.png.flat",
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-mdpi/ic_launcher_blue_grey.png"
+    },
+    {
+        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-mdpi_ic_launcher_1_round.png.flat",
+        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-mdpi/ic_launcher_1_round.png"
     },
     {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-mdpi_ic_launcher_settings.png.flat",
@@ -576,12 +576,12 @@
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-xxhdpi/ic_launcher_green.png"
     },
     {
-        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/layout_activity_call.xml.flat",
-        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/layout/activity_call.xml"
-    },
-    {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_blue.png.flat",
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-xxxhdpi/ic_launcher_blue.png"
+    },
+    {
+        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/layout_activity_call.xml.flat",
+        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/layout/activity_call.xml"
     },
     {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/menu_cab_contacts.xml.flat",
@@ -708,12 +708,12 @@
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-xhdpi/ic_launcher_lime.png"
     },
     {
-        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/drawable_ic_launcher_1_background.xml.flat",
-        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/drawable/ic_launcher_1_background.xml"
-    },
-    {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/layout_activity_main.xml.flat",
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/drawable_ic_launcher_1_background.xml.flat",
+        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/drawable/ic_launcher_1_background.xml"
     },
     {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/layout_fragment_letters_layout.xml.flat",

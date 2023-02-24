@@ -61,7 +61,6 @@ class SettingsActivity : SimpleActivity() {
         setupUseEnglish()
         setupLanguage()
         setupTipJar()
-        setupAbout()
         setupDisableProximitySensor()
         setupDialpadVibrations()
         setupDialpadBeeps()
@@ -337,13 +336,6 @@ class SettingsActivity : SimpleActivity() {
         }
     }
 
-    private fun setupAbout() {
-        settings_about_chevron.applyColorFilter(getProperTextColor())
-        settings_about_version.text = "Version: " + BuildConfig.VERSION_NAME
-        settings_about_holder.setOnClickListener {
-            launchAbout()
-        }
-    }
 
     private fun launchAbout() {
         val licenses = LICENSE_GLIDE or LICENSE_INDICATOR_FAST_SCROLL
