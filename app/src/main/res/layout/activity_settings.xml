@@ -37,27 +37,6 @@
             android:orientation="vertical">
 
             <RelativeLayout
-                android:id="@+id/settings_purchase_thank_you_holder"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/medium_margin"
-                android:paddingEnd="@dimen/normal_margin">
-
-                <ImageView
-                    android:id="@+id/purchase_logo"
-                    android:layout_width="@dimen/app_logo"
-                    android:layout_height="@dimen/app_logo"
-                    android:layout_marginLeft="@dimen/section_margin"
-                    android:layout_marginTop="@dimen/normal_margin"
-                    android:layout_marginBottom="@dimen/normal_margin"
-                    android:elevation="8dp"
-                    android:padding="10dp"
-                    android:src="@mipmap/ic_launcher_settings"
-                    tools:ignore="UseAppTint" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
                 android:id="@+id/settings_appearance_divider"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

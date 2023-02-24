@@ -100,12 +100,12 @@
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/drawable_shortcut_image.xml.flat",
-        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/drawable/shortcut_image.xml"
-    },
-    {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/drawable_ic_incoming_call_vector.xml.flat",
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/drawable/ic_incoming_call_vector.xml"
+    },
+    {
+        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/drawable_shortcut_image.xml.flat",
+        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/drawable/shortcut_image.xml"
     },
     {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_red.png.flat",
@@ -124,16 +124,16 @@
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/layout/fragment_contacts.xml"
     },
     {
-        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-hdpi_ic_launcher_light_green.png.flat",
-        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-hdpi/ic_launcher_light_green.png"
+        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_pink.png.flat",
+        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-xxhdpi/ic_launcher_pink.png"
     },
     {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-mdpi_ic_launcher_light_green.png.flat",
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-mdpi/ic_launcher_light_green.png"
     },
     {
-        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_pink.png.flat",
-        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-xxhdpi/ic_launcher_pink.png"
+        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-hdpi_ic_launcher_light_green.png.flat",
+        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-hdpi/ic_launcher_light_green.png"
     },
     {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/layout_dialog_select_sim.xml.flat",
@@ -228,12 +228,12 @@
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-mdpi/ic_launcher_settings.png"
     },
     {
-        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/drawable_ic_volume_up_vector.xml.flat",
-        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/drawable/ic_volume_up_vector.xml"
-    },
-    {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_deep_purple.png.flat",
         "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/mipmap-xxxhdpi/ic_launcher_deep_purple.png"
+    },
+    {
+        "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/drawable_ic_volume_up_vector.xml.flat",
+        "source": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-main-9:/drawable/ic_volume_up_vector.xml"
     },
     {
         "merged": "/media/ich/data/AndroidApks/temp/sourcecode/daemon/7.4/com.goodwy.dialer.app-merged_res-5:/mipmap-xhdpi_ic_launcher_teal.png.flat",

@@ -81,17 +81,6 @@ class SettingsActivity : SimpleActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
-    private fun setupPurchaseThankYou() {
-        settings_purchase_thank_you_holder.beGoneIf(isOrWasThankYouInstalled() || isProVersion())
-        settings_purchase_thank_you_holder.setOnClickListener {
-            launchPurchase() //launchPurchaseThankYouIntent()
-        }
-        val appDrawable = resources.getColoredDrawableWithColor(R.drawable.ic_plus_support, getProperPrimaryColor())
-        purchase_logo.setImageDrawable(appDrawable)
-        val drawable = resources.getColoredDrawableWithColor(R.drawable.button_gray_bg, getProperPrimaryColor())
-
-    }
-
     private fun setupUseEnglish() {
         settings_use_english_holder.beVisibleIf((config.wasUseEnglishToggled || Locale.getDefault().language != "en") && !isTiramisuPlus())
         settings_use_english.isChecked = config.useEnglish

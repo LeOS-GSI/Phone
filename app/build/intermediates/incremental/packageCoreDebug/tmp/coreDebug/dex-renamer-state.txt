@@ -1,4 +1,4 @@
-#Thu Feb 23 19:23:22 CET 2023
+#Fri Feb 24 09:15:11 CET 2023
 base.0=/media/ich/1TB_SSD/AndroidApks/temp/LeOS-Phone/app/build/intermediates/dex/coreDebug/mergeExtDexCoreDebug/classes.dex
 base.1=/media/ich/1TB_SSD/AndroidApks/temp/LeOS-Phone/app/build/intermediates/dex/coreDebug/mergeProjectDexCoreDebug/0/classes.dex
 base.2=/media/ich/1TB_SSD/AndroidApks/temp/LeOS-Phone/app/build/intermediates/dex/coreDebug/mergeProjectDexCoreDebug/11/classes.dex

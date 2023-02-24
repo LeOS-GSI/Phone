@@ -4722,7 +4722,6 @@ id purchase_app_bar_layout
 id purchase_apps
 id purchase_coordinator
 id purchase_holder
-id purchase_logo
 id purchase_nested_scrollview
 id purchase_thank_you
 id purchase_toolbar
@@ -4884,7 +4883,6 @@ id settings_open_dialpad_at_launch
 id settings_open_dialpad_at_launch_holder
 id settings_other_divider
 id settings_other_label
-id settings_purchase_thank_you_holder
 id settings_screen_slide_animation
 id settings_screen_slide_animation_holder
 id settings_screen_slide_animation_label
