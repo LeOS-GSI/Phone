@@ -36,8 +36,6 @@ class SettingsActivity : SimpleActivity() {
         super.onResume()
         setupToolbar(settings_toolbar, NavigationIcon.Arrow)
 
-        setupPurchaseThankYou()
-        setupCustomizeColors()
         setupDefaultTab()
         setupManageShownTabs()
         setupBottomNavigationBar()
@@ -88,32 +86,10 @@ class SettingsActivity : SimpleActivity() {
         settings_purchase_thank_you_holder.setOnClickListener {
             launchPurchase() //launchPurchaseThankYouIntent()
         }
-        moreButton.setOnClickListener {
-            launchPurchase()
-        }
         val appDrawable = resources.getColoredDrawableWithColor(R.drawable.ic_plus_support, getProperPrimaryColor())
         purchase_logo.setImageDrawable(appDrawable)
         val drawable = resources.getColoredDrawableWithColor(R.drawable.button_gray_bg, getProperPrimaryColor())
-        moreButton.background = drawable
-        moreButton.setTextColor(getProperBackgroundColor())
-        moreButton.setPadding(2,2,2,2)
-    }
 
-    private fun setupCustomizeColors() {
-        settings_customize_colors_chevron.applyColorFilter(getProperTextColor())
-        settings_customize_colors_label.text = if (isOrWasThankYouInstalled() || isProVersion()) {
-            getString(R.string.customize_colors)
-        } else {
-            getString(R.string.customize_colors_locked)
-        }
-        settings_customize_colors_holder.setOnClickListener {
-            //handleCustomizeColorsClick()
-            if (isOrWasThankYouInstalled() || isProVersion()) {
-                startCustomizationActivity()
-            } else {
-                launchPurchase()
-            }
-        }
     }
 
     private fun setupUseEnglish() {

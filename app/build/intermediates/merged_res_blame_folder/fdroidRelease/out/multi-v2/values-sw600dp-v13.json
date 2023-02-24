@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.goodwy.dialer.app-mergeFdroidReleaseResources-3:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/media/ich/data/AndroidApks/temp/sourcecode/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,150,195,243,299,354,410,461,517,565,613,671,723,779,826,884,931,980,1023",
+                        "endColumns": "43,50,44,47,55,54,55,50,55,47,47,57,51,55,46,57,46,48,42,45",
+                        "endOffsets": "94,145,190,238,294,349,405,456,512,560,608,666,718,774,821,879,926,975,1018,1064"
+                    },
+                    "to": {
+                        "startLines": "10,11,13,14,15,16,17,29,30,31,35,36,37,38,39,40,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,655,765,810,858,914,969,1689,1740,1796,2008,2056,2114,2166,2222,2269,2327,2374,2423,2466",
+                        "endColumns": "43,50,44,47,55,54,55,50,55,47,47,57,51,55,46,57,46,48,42,45",
+                        "endOffsets": "650,701,805,853,909,964,1020,1735,1791,1839,2051,2109,2161,2217,2264,2322,2369,2418,2461,2507"
+                    }
+                },
+                {
+                    "source": "/media/ich/data/AndroidApks/temp/sourcecode/caches/transforms-3/bd8e4e5bd88f619ace3d9b3c6f6a9da4/transformed/appcompat-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "/media/ich/data/AndroidApks/temp/sourcecode/caches/transforms-3/23af5e0faeaad10dec321b54628be85c/transformed/material-1.8.0-alpha01/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,673,732,795",
+                        "endLines": "2,3,4,5,6,7,9,10,11,12,13,17",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,668,727,790,962"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26,28,32,33,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1127,1187,1257,1328,1400,1458,1516,1625,1844,1900,2512,2575",
+                        "endLines": "20,21,22,23,24,25,27,28,32,33,45,49",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "1182,1252,1323,1395,1453,1511,1620,1684,1895,1954,2570,2742"
+                    }
+                },
+                {
+                    "source": "/media/ich/1TB_SSD/AndroidApks/temp/LeOS-Phone/app/src/main/res/values-sw600dp/dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,164,55,247",
+                        "endColumns": "58,51,49,48",
+                        "endOffsets": "159,211,100,291"
+                    },
+                    "to": {
+                        "startLines": "12,18,19,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "706,1025,1077,1959",
+                        "endColumns": "58,51,49,48",
+                        "endOffsets": "760,1072,1122,2003"
+                    }
+                }
+            ]
+        }
+    ]
+}
