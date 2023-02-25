@@ -4813,10 +4813,6 @@ id select_sim_remember_holder
 id selected
 id selection_type
 id settings
-id settings_about_chevron
-id settings_about_holder
-id settings_about_label
-id settings_about_version
 id settings_always_show_fullscreen
 id settings_always_show_fullscreen_holder
 id settings_app_bar_layout
