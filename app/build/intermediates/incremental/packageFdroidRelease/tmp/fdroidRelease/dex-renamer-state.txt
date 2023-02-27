@@ -1,0 +1,4 @@
+#Mon Feb 27 15:39:24 CET 2023
+base.0=/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/build/intermediates/dex/fdroidRelease/minifyFdroidReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,6 @@
+# Please add these rules to your existing keep rules in order to suppress warnings.
+# This is generated automatically by the Android Gradle plugin.
+-dontwarn com.andrognito.patternlockview.PatternLockView
+-dontwarn com.andrognito.patternlockview.listener.PatternLockViewListener
+-dontwarn com.github.ajalt.reprint.core.AuthenticationListener
+-dontwarn com.github.ajalt.reprint.core.Reprint

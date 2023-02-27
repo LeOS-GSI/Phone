@@ -1,0 +1,189 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class com.android.billingclient.api.ProxyBillingActivity { <init>(); }
+-keep class com.goodwy.commons.activities.AboutActivity { <init>(); }
+-keep class com.goodwy.commons.activities.ContributorsActivity { <init>(); }
+-keep class com.goodwy.commons.activities.CustomizationActivity { <init>(); }
+-keep class com.goodwy.commons.activities.FAQActivity { <init>(); }
+-keep class com.goodwy.commons.activities.LicenseActivity { <init>(); }
+-keep class com.goodwy.commons.activities.ManageBlockedNumbersActivity { <init>(); }
+-keep class com.goodwy.commons.receivers.SharedThemeReceiver { <init>(); }
+-keep class com.goodwy.dialer.App { <init>(); }
+-keep class com.goodwy.dialer.activities.CallActivity { <init>(); }
+-keep class com.goodwy.dialer.activities.CallHistoryActivity { <init>(); }
+-keep class com.goodwy.dialer.activities.ConferenceActivity { <init>(); }
+-keep class com.goodwy.dialer.activities.DialerActivity { <init>(); }
+-keep class com.goodwy.dialer.activities.DialpadActivity { <init>(); }
+-keep class com.goodwy.dialer.activities.MainActivity { <init>(); }
+-keep class com.goodwy.dialer.activities.ManageSpeedDialActivity { <init>(); }
+-keep class com.goodwy.dialer.activities.SettingsActivity { <init>(); }
+-keep class com.goodwy.dialer.activities.SplashActivity { <init>(); }
+-keep class com.goodwy.dialer.receivers.CallActionReceiver { <init>(); }
+-keep class com.goodwy.dialer.services.CallService { <init>(); }
+-keep class com.goodwy.dialer.services.SimpleCallScreeningService { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView { <init>(android.content.Context); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.helper.widget.Flow { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Barrier { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Group { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Guideline { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.fragment.app.FragmentContainerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.andrognito.patternlockview.PatternLockView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.BiometricIdTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.Breadcrumbs { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.ColorPickerSquare { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.FingerprintTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.LineColorPicker { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.LineColorPickerGrid { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyAppCompatCheckbox { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyCompatRadioButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyDialogViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyFloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MySwitchCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyTextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.MyViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.PatternTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.PinTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.RenamePatternTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.commons.views.RenameSimpleTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.dialer.fragments.ContactsFragment { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.dialer.fragments.FavoritesFragment { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.goodwy.dialer.fragments.RecentsFragment { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.CollapsingToolbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButtonToggleGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.Chip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabItem { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ChipTextInputComboView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockFaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockHandView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.reddit.indicatorfastscroll.FastScrollerThumbView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.reddit.indicatorfastscroll.FastScrollerView { <init>(android.content.Context, android.util.AttributeSet); }
+

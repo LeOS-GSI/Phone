@@ -1,0 +1,1057 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.goodwy.dialer"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="9.11" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:7:5-72
+12-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:7:22-69
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:8:5-80
+13-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+14-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:9:5-73
+14-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:9:22-70
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:10:5-75
+15-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:10:22-72
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:11:5-69
+16-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:11:22-66
+17    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+17-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:12:5-72
+17-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:12:22-69
+18    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+18-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:13:5-73
+18-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:13:22-70
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:14:5-68
+19-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:14:22-65
+20    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+20-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:15:5-77
+20-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:15:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:16:5-77
+21-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:16:22-74
+22    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+22-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:17:5-75
+22-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:17:22-72
+23    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+23-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:18:5-80
+23-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:18:22-77
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:19:5-71
+24-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:19:22-68
+25    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+25-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:20:5-78
+25-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:20:22-75
+26    <uses-permission android:name="android.telecom.action.CONFIGURE_PHONE_ACCOUNT" />
+26-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:21:5-86
+26-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:21:22-83
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:22:5-66
+27-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:22:22-63
+28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+28-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:23:5-77
+28-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:23:22-74
+29    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+29-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:24:5-81
+29-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:24:22-78
+30    <uses-permission android:name="com.android.vending.BILLING" />
+30-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:25:5-67
+30-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:25:22-64
+31    <uses-permission
+31-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:27:5-29:38
+32        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+32-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:28:9-65
+33        android:maxSdkVersion="28" />
+33-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:29:9-35
+34
+35    <queries>
+35-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:35:5-44:15
+36        <package android:name="com.leos.phone" />
+36-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:36:9-50
+36-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:36:18-47
+37        <package android:name="com.leos.phone" />
+37-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:36:9-50
+37-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:36:18-47
+38        <package android:name="com.goodwy.contacts.debug" />
+38-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:38:9-61
+38-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:38:18-58
+39        <package android:name="com.goodwy.contacts" />
+39-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:39:9-55
+39-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:39:18-52
+40        <package android:name="com.goodwy.smsmessenger.debug" />
+40-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:40:9-65
+40-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:40:18-62
+41        <package android:name="com.goodwy.smsmessenger" />
+41-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:41:9-59
+41-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:41:18-56
+42        <package android:name="com.goodwy.voicerecorder.debug" />
+42-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:42:9-66
+42-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:42:18-63
+43        <package android:name="com.goodwy.voicerecorder" />
+43-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:43:9-60
+43-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:43:18-57
+44        <package android:name="com.goodwy.audiobook.debug" />
+44-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:11:9-62
+44-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:11:18-59
+45        <package android:name="com.goodwy.audiobook" />
+45-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:12:9-56
+45-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:12:18-53
+46        <package android:name="com.goodwy.files.debug" />
+46-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:15:9-58
+46-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:15:18-55
+47        <package android:name="com.goodwy.files" />
+47-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:16:9-52
+47-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:16:18-49
+48        <package android:name="com.goodwy.dialer.debug" />
+48-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:17:9-59
+48-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:17:18-56
+49        <package android:name="com.goodwy.dialer" />
+49-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:18:9-53
+49-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:18:18-50
+50    </queries>
+51
+52    <uses-feature
+52-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:25:5-27:36
+53        android:name="android.hardware.faketouch"
+53-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:26:9-50
+54        android:required="false" />
+54-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:27:9-33
+55    <uses-feature
+55-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:28:5-30:36
+56        android:name="android.hardware.screen.portrait"
+56-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:29:9-56
+57        android:required="false" /> <!-- for android -->
+57-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:30:9-33
+58    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+59    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+60    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+61    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+62    <!-- for Samsung -->
+63    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+63-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+63-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+64    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+64-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+64-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+65    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+65-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+65-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+66    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+66-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+66-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+67    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+67-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+67-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+68    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+68-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+68-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+69    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+69-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+69-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+70    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+70-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+70-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+71    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+71-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+71-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+72    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+72-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+72-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+73    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+73-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+73-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+74    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+74-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+74-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+75    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+75-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+75-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+76    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+76-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+76-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+77    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+77-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+77-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+78    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+78-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+78-->[me.leolin:ShortcutBadger:1.1.22] /home/ich/.gradle/caches/transforms-3/0215c1b8ecdd89c51f138123cc277987/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+79
+80    <application
+80-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:46:5-475:19
+81        android:name="com.goodwy.dialer.App"
+81-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:47:9-28
+82        android:allowBackup="true"
+82-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:48:9-35
+83        android:appCategory="productivity"
+83-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:49:9-43
+84        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+84-->[androidx.core:core:1.8.0] /home/ich/.gradle/caches/transforms-3/29d7296c0b3e266d00ef2210afff84f7/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+85        android:debuggable="true"
+86        android:extractNativeLibs="false"
+87        android:icon="@mipmap/ic_launcher"
+87-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:50:9-43
+88        android:label="LeOS-Phone"
+88-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:51:9-35
+89        android:roundIcon="@mipmap/ic_launcher"
+89-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:52:9-48
+90        android:supportsRtl="true"
+90-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:41:18-44
+91        android:testOnly="true"
+92        android:theme="@style/AppTheme" >
+92-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:53:9-40
+93        <activity
+93-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:55:9-58:50
+94            android:name="com.goodwy.dialer.activities.SplashActivity"
+94-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:56:13-54
+95            android:exported="false"
+95-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:57:13-37
+96            android:theme="@style/SplashTheme" />
+96-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:58:13-47
+97
+98        <activity-alias
+98-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:462:9-474:26
+99            android:name="com.goodwy.dialer.activities.SplashActivity.Grey_black"
+99-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:463:13-65
+100            android:enabled="false"
+100-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:464:13-36
+101            android:exported="true"
+101-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:465:13-36
+102            android:icon="@mipmap/ic_launcher_grey_black"
+102-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:466:13-58
+103            android:roundIcon="@mipmap/ic_launcher_grey_black"
+103-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:467:13-63
+104            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+104-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:468:13-64
+105            <intent-filter>
+105-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+106                <action android:name="android.intent.action.MAIN" />
+106-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+106-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+107
+108                <category android:name="android.intent.category.LAUNCHER" />
+108-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+108-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+109            </intent-filter>
+110        </activity-alias>
+111        <activity-alias
+111-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:448:9-460:26
+112            android:name="com.goodwy.dialer.activities.SplashActivity.Blue_grey"
+112-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:449:13-64
+113            android:enabled="false"
+113-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:450:13-36
+114            android:exported="true"
+114-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:451:13-36
+115            android:icon="@mipmap/ic_launcher_blue_grey"
+115-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:452:13-57
+116            android:roundIcon="@mipmap/ic_launcher_blue_grey"
+116-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:453:13-62
+117            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+117-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:454:13-64
+118            <intent-filter>
+118-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+119                <action android:name="android.intent.action.MAIN" />
+119-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+119-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+120
+121                <category android:name="android.intent.category.LAUNCHER" />
+121-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+121-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+122            </intent-filter>
+123        </activity-alias>
+124        <activity-alias
+124-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:434:9-446:26
+125            android:name="com.goodwy.dialer.activities.SplashActivity.Brown"
+125-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:435:13-60
+126            android:enabled="false"
+126-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:436:13-36
+127            android:exported="true"
+127-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:437:13-36
+128            android:icon="@mipmap/ic_launcher_brown"
+128-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:438:13-53
+129            android:roundIcon="@mipmap/ic_launcher_brown"
+129-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:439:13-58
+130            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+130-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:440:13-64
+131            <intent-filter>
+131-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+132                <action android:name="android.intent.action.MAIN" />
+132-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+132-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+133
+134                <category android:name="android.intent.category.LAUNCHER" />
+134-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+134-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+135            </intent-filter>
+136        </activity-alias>
+137        <activity-alias
+137-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:420:9-432:26
+138            android:name="com.goodwy.dialer.activities.SplashActivity.Deep_orange"
+138-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:421:13-66
+139            android:enabled="false"
+139-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:422:13-36
+140            android:exported="true"
+140-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:423:13-36
+141            android:icon="@mipmap/ic_launcher_deep_orange"
+141-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:424:13-59
+142            android:roundIcon="@mipmap/ic_launcher_deep_orange"
+142-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:425:13-64
+143            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+143-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:426:13-64
+144            <intent-filter>
+144-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+145                <action android:name="android.intent.action.MAIN" />
+145-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+145-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+146
+147                <category android:name="android.intent.category.LAUNCHER" />
+147-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+147-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+148            </intent-filter>
+149        </activity-alias>
+150        <activity-alias
+150-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:407:9-418:26
+151            android:name="com.goodwy.dialer.activities.SplashActivity.Orange"
+151-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:408:13-61
+152            android:enabled="true"
+152-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:409:13-35
+153            android:exported="true"
+153-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:410:13-36
+154            android:icon="@mipmap/ic_launcher"
+154-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:411:13-47
+155            android:roundIcon="@mipmap/ic_launcher"
+155-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:412:13-52
+156            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+156-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:413:13-64
+157            <intent-filter>
+157-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+158                <action android:name="android.intent.action.MAIN" />
+158-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+158-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+159
+160                <category android:name="android.intent.category.LAUNCHER" />
+160-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+160-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+161            </intent-filter>
+162        </activity-alias>
+163        <activity-alias
+163-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:393:9-405:26
+164            android:name="com.goodwy.dialer.activities.SplashActivity.Amber"
+164-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:394:13-60
+165            android:enabled="false"
+165-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:395:13-36
+166            android:exported="true"
+166-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:396:13-36
+167            android:icon="@mipmap/ic_launcher_amber"
+167-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:397:13-53
+168            android:roundIcon="@mipmap/ic_launcher_amber"
+168-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:398:13-58
+169            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+169-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:399:13-64
+170            <intent-filter>
+170-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+171                <action android:name="android.intent.action.MAIN" />
+171-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+171-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+172
+173                <category android:name="android.intent.category.LAUNCHER" />
+173-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+173-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+174            </intent-filter>
+175        </activity-alias>
+176        <activity-alias
+176-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:379:9-391:26
+177            android:name="com.goodwy.dialer.activities.SplashActivity.Yellow"
+177-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:380:13-61
+178            android:enabled="false"
+178-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:381:13-36
+179            android:exported="true"
+179-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:382:13-36
+180            android:icon="@mipmap/ic_launcher_yellow"
+180-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:383:13-54
+181            android:roundIcon="@mipmap/ic_launcher_yellow"
+181-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:384:13-59
+182            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+182-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:385:13-64
+183            <intent-filter>
+183-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+184                <action android:name="android.intent.action.MAIN" />
+184-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+184-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+185
+186                <category android:name="android.intent.category.LAUNCHER" />
+186-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+186-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+187            </intent-filter>
+188        </activity-alias>
+189        <activity-alias
+189-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:365:9-377:26
+190            android:name="com.goodwy.dialer.activities.SplashActivity.Lime"
+190-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:366:13-59
+191            android:enabled="false"
+191-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:367:13-36
+192            android:exported="true"
+192-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:368:13-36
+193            android:icon="@mipmap/ic_launcher_lime"
+193-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:369:13-52
+194            android:roundIcon="@mipmap/ic_launcher_lime"
+194-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:370:13-57
+195            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+195-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:371:13-64
+196            <intent-filter>
+196-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+197                <action android:name="android.intent.action.MAIN" />
+197-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+197-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+198
+199                <category android:name="android.intent.category.LAUNCHER" />
+199-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+199-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+200            </intent-filter>
+201        </activity-alias>
+202        <activity-alias
+202-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:351:9-363:26
+203            android:name="com.goodwy.dialer.activities.SplashActivity.Light_green"
+203-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:352:13-66
+204            android:enabled="false"
+204-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:353:13-36
+205            android:exported="true"
+205-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:354:13-36
+206            android:icon="@mipmap/ic_launcher_light_green"
+206-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:355:13-59
+207            android:roundIcon="@mipmap/ic_launcher_light_green"
+207-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:356:13-64
+208            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+208-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:357:13-64
+209            <intent-filter>
+209-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+210                <action android:name="android.intent.action.MAIN" />
+210-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+210-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+211
+212                <category android:name="android.intent.category.LAUNCHER" />
+212-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+212-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+213            </intent-filter>
+214        </activity-alias>
+215        <activity-alias
+215-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:337:9-349:26
+216            android:name="com.goodwy.dialer.activities.SplashActivity.Green"
+216-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:338:13-60
+217            android:enabled="false"
+217-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:339:13-36
+218            android:exported="true"
+218-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:340:13-36
+219            android:icon="@mipmap/ic_launcher_green"
+219-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:341:13-53
+220            android:roundIcon="@mipmap/ic_launcher_green"
+220-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:342:13-58
+221            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+221-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:343:13-64
+222            <intent-filter>
+222-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+223                <action android:name="android.intent.action.MAIN" />
+223-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+223-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+224
+225                <category android:name="android.intent.category.LAUNCHER" />
+225-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+225-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+226            </intent-filter>
+227        </activity-alias>
+228        <activity-alias
+228-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:323:9-335:26
+229            android:name="com.goodwy.dialer.activities.SplashActivity.Teal"
+229-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:324:13-59
+230            android:enabled="false"
+230-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:325:13-36
+231            android:exported="true"
+231-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:326:13-36
+232            android:icon="@mipmap/ic_launcher_teal"
+232-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:327:13-52
+233            android:roundIcon="@mipmap/ic_launcher_teal"
+233-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:328:13-57
+234            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+234-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:329:13-64
+235            <intent-filter>
+235-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+236                <action android:name="android.intent.action.MAIN" />
+236-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+236-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+237
+238                <category android:name="android.intent.category.LAUNCHER" />
+238-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+238-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+239            </intent-filter>
+240        </activity-alias>
+241        <activity-alias
+241-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:309:9-321:26
+242            android:name="com.goodwy.dialer.activities.SplashActivity.Cyan"
+242-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:310:13-59
+243            android:enabled="false"
+243-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:311:13-36
+244            android:exported="true"
+244-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:312:13-36
+245            android:icon="@mipmap/ic_launcher_cyan"
+245-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:313:13-52
+246            android:roundIcon="@mipmap/ic_launcher_cyan"
+246-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:314:13-57
+247            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+247-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:315:13-64
+248            <intent-filter>
+248-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+249                <action android:name="android.intent.action.MAIN" />
+249-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+249-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+250
+251                <category android:name="android.intent.category.LAUNCHER" />
+251-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+251-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+252            </intent-filter>
+253        </activity-alias>
+254        <activity-alias
+254-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:295:9-307:26
+255            android:name="com.goodwy.dialer.activities.SplashActivity.Light_blue"
+255-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:296:13-65
+256            android:enabled="false"
+256-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:297:13-36
+257            android:exported="true"
+257-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:298:13-36
+258            android:icon="@mipmap/ic_launcher_light_blue"
+258-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:299:13-58
+259            android:roundIcon="@mipmap/ic_launcher_light_blue"
+259-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:300:13-63
+260            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+260-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:301:13-64
+261            <intent-filter>
+261-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+262                <action android:name="android.intent.action.MAIN" />
+262-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+262-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+263
+264                <category android:name="android.intent.category.LAUNCHER" />
+264-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+264-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+265            </intent-filter>
+266        </activity-alias>
+267        <activity-alias
+267-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:281:9-293:26
+268            android:name="com.goodwy.dialer.activities.SplashActivity.Blue"
+268-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:282:13-59
+269            android:enabled="false"
+269-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:283:13-36
+270            android:exported="true"
+270-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:284:13-36
+271            android:icon="@mipmap/ic_launcher_blue"
+271-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:285:13-52
+272            android:roundIcon="@mipmap/ic_launcher_blue"
+272-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:286:13-57
+273            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+273-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:287:13-64
+274            <intent-filter>
+274-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+275                <action android:name="android.intent.action.MAIN" />
+275-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+275-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+276
+277                <category android:name="android.intent.category.LAUNCHER" />
+277-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+277-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+278            </intent-filter>
+279        </activity-alias>
+280        <activity-alias
+280-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:267:9-279:26
+281            android:name="com.goodwy.dialer.activities.SplashActivity.Indigo"
+281-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:268:13-61
+282            android:enabled="false"
+282-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:269:13-36
+283            android:exported="true"
+283-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:270:13-36
+284            android:icon="@mipmap/ic_launcher_indigo"
+284-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:271:13-54
+285            android:roundIcon="@mipmap/ic_launcher_indigo"
+285-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:272:13-59
+286            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+286-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:273:13-64
+287            <intent-filter>
+287-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+288                <action android:name="android.intent.action.MAIN" />
+288-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+288-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+289
+290                <category android:name="android.intent.category.LAUNCHER" />
+290-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+290-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+291            </intent-filter>
+292        </activity-alias>
+293        <activity-alias
+293-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:253:9-265:26
+294            android:name="com.goodwy.dialer.activities.SplashActivity.Deep_purple"
+294-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:254:13-66
+295            android:enabled="false"
+295-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:255:13-36
+296            android:exported="true"
+296-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:256:13-36
+297            android:icon="@mipmap/ic_launcher_deep_purple"
+297-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:257:13-59
+298            android:roundIcon="@mipmap/ic_launcher_deep_purple"
+298-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:258:13-64
+299            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+299-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:259:13-64
+300            <intent-filter>
+300-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+301                <action android:name="android.intent.action.MAIN" />
+301-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+301-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+302
+303                <category android:name="android.intent.category.LAUNCHER" />
+303-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+303-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+304            </intent-filter>
+305        </activity-alias>
+306        <activity-alias
+306-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:239:9-251:26
+307            android:name="com.goodwy.dialer.activities.SplashActivity.Purple"
+307-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:240:13-61
+308            android:enabled="false"
+308-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:241:13-36
+309            android:exported="true"
+309-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:242:13-36
+310            android:icon="@mipmap/ic_launcher_purple"
+310-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:243:13-54
+311            android:roundIcon="@mipmap/ic_launcher_purple"
+311-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:244:13-59
+312            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+312-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:245:13-64
+313            <intent-filter>
+313-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+314                <action android:name="android.intent.action.MAIN" />
+314-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+314-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+315
+316                <category android:name="android.intent.category.LAUNCHER" />
+316-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+316-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+317            </intent-filter>
+318        </activity-alias>
+319        <activity-alias
+319-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:225:9-237:26
+320            android:name="com.goodwy.dialer.activities.SplashActivity.Pink"
+320-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:226:13-59
+321            android:enabled="false"
+321-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:227:13-36
+322            android:exported="true"
+322-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:228:13-36
+323            android:icon="@mipmap/ic_launcher_pink"
+323-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:229:13-52
+324            android:roundIcon="@mipmap/ic_launcher_pink"
+324-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:230:13-57
+325            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+325-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:231:13-64
+326            <intent-filter>
+326-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+327                <action android:name="android.intent.action.MAIN" />
+327-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+327-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+328
+329                <category android:name="android.intent.category.LAUNCHER" />
+329-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+329-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+330            </intent-filter>
+331        </activity-alias>
+332        <activity-alias
+332-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:211:9-223:26
+333            android:name="com.goodwy.dialer.activities.SplashActivity.Red"
+333-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:212:13-58
+334            android:enabled="false"
+334-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:213:13-36
+335            android:exported="true"
+335-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:214:13-36
+336            android:icon="@mipmap/ic_launcher_red"
+336-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:215:13-51
+337            android:roundIcon="@mipmap/ic_launcher_red"
+337-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:216:13-56
+338            android:targetActivity="com.goodwy.dialer.activities.SplashActivity" >
+338-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:217:13-64
+339            <intent-filter>
+339-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:219:13-222:29
+340                <action android:name="android.intent.action.MAIN" />
+340-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:17-69
+340-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:220:25-66
+341
+342                <category android:name="android.intent.category.LAUNCHER" />
+342-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:17-77
+342-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:221:27-74
+343            </intent-filter>
+344        </activity-alias>
+345
+346        <activity
+346-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:60:9-71:20
+347            android:name="com.goodwy.dialer.activities.MainActivity"
+347-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:61:13-52
+348            android:configChanges="orientation|screenSize"
+348-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:62:13-59
+349            android:exported="true" >
+349-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:63:13-36
+350            <intent-filter>
+350-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:66:13-70:29
+351                <action android:name="android.intent.action.VIEW" />
+351-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:67:17-69
+351-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:67:25-66
+352
+353                <data android:mimeType="vnd.android.cursor.dir/calls" />
+353-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:68:17-73
+353-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:68:23-70
+354
+355                <category android:name="android.intent.category.DEFAULT" />
+355-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:17-76
+355-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:27-73
+356            </intent-filter>
+357        </activity>
+358        <activity
+358-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:73:9-77:69
+359            android:name="com.goodwy.commons.activities.AboutActivity"
+359-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:74:13-71
+360            android:exported="false"
+360-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:75:13-37
+361            android:label="@string/about"
+361-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:76:13-42
+362            android:parentActivityName="com.goodwy.dialer.activities.MainActivity" />
+362-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:77:13-66
+363        <activity
+363-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:79:9-83:73
+364            android:name="com.goodwy.commons.activities.CustomizationActivity"
+364-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:80:13-79
+365            android:exported="false"
+365-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:81:13-37
+366            android:label="@string/customize_colors"
+366-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:82:13-53
+367            android:parentActivityName="com.goodwy.dialer.activities.SettingsActivity" />
+367-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:83:13-70
+368        <activity
+368-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:85:9-89:73
+369            android:name="com.goodwy.commons.activities.ManageBlockedNumbersActivity"
+369-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:86:13-86
+370            android:exported="false"
+370-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:87:13-37
+371            android:label="@string/blocked_numbers"
+371-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:88:13-52
+372            android:parentActivityName="com.goodwy.dialer.activities.SettingsActivity" />
+372-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:89:13-70
+373        <activity
+373-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:91:9-95:73
+374            android:name="com.goodwy.dialer.activities.ManageSpeedDialActivity"
+374-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:92:13-63
+375            android:exported="false"
+375-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:93:13-37
+376            android:label="@string/speed_dial"
+376-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:94:13-47
+377            android:parentActivityName="com.goodwy.dialer.activities.SettingsActivity" />
+377-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:95:13-70
+378        <activity
+378-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:97:9-101:69
+379            android:name="com.goodwy.dialer.activities.ConferenceActivity"
+379-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:98:13-58
+380            android:exported="false"
+380-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:99:13-37
+381            android:label="@string/conference"
+381-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:100:13-47
+382            android:parentActivityName="com.goodwy.dialer.activities.CallActivity" />
+382-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:101:13-66
+383        <activity
+383-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:103:9-113:20
+384            android:name="com.goodwy.dialer.activities.SettingsActivity"
+384-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:104:13-56
+385            android:exported="true"
+385-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:105:13-36
+386            android:label="@string/settings"
+386-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:106:13-45
+387            android:parentActivityName="com.goodwy.dialer.activities.MainActivity" >
+387-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:107:13-66
+388            <intent-filter>
+388-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:109:13-112:29
+389                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+389-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:110:17-88
+389-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:110:25-85
+390
+391                <category android:name="android.intent.category.DEFAULT" />
+391-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:17-76
+391-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:27-73
+392            </intent-filter>
+393        </activity>
+394        <activity
+394-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:115:9-122:47
+395            android:name="com.goodwy.dialer.activities.CallActivity"
+395-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:116:13-52
+396            android:excludeFromRecents="true"
+396-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:117:13-46
+397            android:exported="false"
+397-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:118:13-37
+398            android:label="@string/ongoing_call"
+398-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:119:13-49
+399            android:launchMode="singleTask"
+399-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:120:13-44
+400            android:screenOrientation="portrait"
+400-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:121:13-49
+401            android:showOnLockScreen="true" />
+401-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:122:13-44
+402        <activity
+402-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:124:9-130:20
+403            android:name="com.goodwy.dialer.activities.CallHistoryActivity"
+403-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:125:13-59
+404            android:exported="false"
+404-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:126:13-37
+405            android:label="@string/recents"
+405-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:127:13-44
+406            android:parentActivityName="com.goodwy.dialer.activities.MainActivity"
+406-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:129:13-66
+407            android:screenOrientation="portrait" >
+407-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:128:13-49
+408        </activity>
+409        <activity
+409-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:132:9-162:20
+410            android:name="com.goodwy.dialer.activities.DialpadActivity"
+410-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:133:13-55
+411            android:exported="true"
+411-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:134:13-36
+412            android:label=""
+412-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:135:13-29
+413            android:parentActivityName="com.goodwy.dialer.activities.MainActivity"
+413-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:136:13-66
+414            android:windowSoftInputMode="stateHidden" >
+414-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:137:13-54
+415
+416            <!-- android:label="@string/dialpad" -->
+417
+418            <intent-filter>
+418-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:140:13-145:29
+419                <action android:name="android.intent.action.DIAL" />
+419-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:141:17-69
+419-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:141:25-66
+420
+421                <category android:name="android.intent.category.DEFAULT" />
+421-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:17-76
+421-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:27-73
+422
+423                <data android:scheme="tel" />
+423-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:68:17-73
+423-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:144:23-43
+424            </intent-filter>
+425            <intent-filter>
+425-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:147:13-151:29
+426                <action android:name="android.intent.action.DIAL" />
+426-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:141:17-69
+426-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:141:25-66
+427
+428                <category android:name="android.intent.category.DEFAULT" />
+428-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:17-76
+428-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:27-73
+429            </intent-filter>
+430            <intent-filter>
+430-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:153:13-161:29
+431                <action android:name="android.intent.action.VIEW" />
+431-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:67:17-69
+431-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:67:25-66
+432                <action android:name="android.intent.action.DIAL" />
+432-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:141:17-69
+432-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:141:25-66
+433
+434                <category android:name="android.intent.category.DEFAULT" />
+434-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:17-76
+434-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:27-73
+435                <category android:name="android.intent.category.BROWSABLE" />
+435-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:158:17-78
+435-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:158:27-75
+436
+437                <data android:scheme="tel" />
+437-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:68:17-73
+437-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:144:23-43
+438            </intent-filter>
+439        </activity>
+440        <activity
+440-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:164:9-176:20
+441            android:name="com.goodwy.dialer.activities.DialerActivity"
+441-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:165:13-54
+442            android:exported="true"
+442-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:166:13-36
+443            android:label="LeOS-Phone"
+443-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:167:13-39
+444            android:theme="@style/Theme.Transparent" >
+444-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:168:13-53
+445            <intent-filter>
+445-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:170:13-175:29
+446                <action android:name="android.intent.action.CALL" />
+446-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:171:17-69
+446-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:171:25-66
+447
+448                <category android:name="android.intent.category.DEFAULT" />
+448-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:17-76
+448-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:69:27-73
+449
+450                <data android:scheme="tel" />
+450-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:68:17-73
+450-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:144:23-43
+451            </intent-filter>
+452        </activity>
+453
+454        <service
+454-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:178:9-190:19
+455            android:name="com.goodwy.dialer.services.CallService"
+455-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:179:13-49
+456            android:enabled="true"
+456-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:180:13-35
+457            android:exported="true"
+457-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:181:13-36
+458            android:permission="android.permission.BIND_INCALL_SERVICE" >
+458-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:182:13-72
+459            <meta-data
+459-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:183:13-185:40
+460                android:name="android.telecom.IN_CALL_SERVICE_UI"
+460-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:184:17-66
+461                android:value="true" />
+461-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:185:17-37
+462
+463            <intent-filter>
+463-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:187:13-189:29
+464                <action android:name="android.telecom.InCallService" />
+464-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:188:17-72
+464-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:188:25-69
+465            </intent-filter>
+466        </service>
+467        <service
+467-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:192:9-199:19
+468            android:name="com.goodwy.dialer.services.SimpleCallScreeningService"
+468-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:193:13-64
+469            android:exported="true"
+469-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:194:13-36
+470            android:permission="android.permission.BIND_SCREENING_SERVICE" >
+470-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:195:13-75
+471            <intent-filter>
+471-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:196:13-198:29
+472                <action android:name="android.telecom.CallScreeningService" />
+472-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:197:17-79
+472-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:197:25-76
+473            </intent-filter>
+474        </service>
+475
+476        <receiver
+476-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:201:9-209:20
+477            android:name="com.goodwy.dialer.receivers.CallActionReceiver"
+477-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:202:13-57
+478            android:enabled="true"
+478-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:203:13-35
+479            android:exported="true" >
+479-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:204:13-36
+480            <intent-filter>
+480-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:205:13-208:29
+481                <action android:name="com.goodwy.dialer.action.ACCEPT_CALL" />
+481-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:206:17-79
+481-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:206:25-76
+482                <action android:name="com.goodwy.dialer.action.DECLINE_CALL" />
+482-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:207:17-80
+482-->/media/ich/1TB_SSD/AndroidApks/LeOS-Phone/app/src/main/AndroidManifest.xml:207:25-77
+483            </intent-filter>
+484        </receiver>
+485
+486        <activity
+486-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:42:9-46:88
+487            android:name="com.goodwy.commons.activities.ContributorsActivity"
+487-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:43:13-78
+488            android:exported="false"
+488-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:44:13-37
+489            android:label="@string/contributors"
+489-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:45:13-49
+490            android:parentActivityName="com.goodwy.commons.activities.AboutActivity" />
+490-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:46:13-85
+491        <activity
+491-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:47:9-51:88
+492            android:name="com.goodwy.commons.activities.FAQActivity"
+492-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:48:13-69
+493            android:exported="false"
+493-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:49:13-37
+494            android:label="@string/frequently_asked_questions"
+494-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:50:13-63
+495            android:parentActivityName="com.goodwy.commons.activities.AboutActivity" />
+495-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:51:13-85
+496        <activity
+496-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:52:9-56:88
+497            android:name="com.goodwy.commons.activities.LicenseActivity"
+497-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:53:13-73
+498            android:exported="false"
+498-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:54:13-37
+499            android:label="@string/third_party_licences"
+499-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:55:13-57
+500            android:parentActivityName="com.goodwy.commons.activities.AboutActivity" />
+500-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:56:13-85
+501
+502        <receiver
+502-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:58:9-66:20
+503            android:name="com.goodwy.commons.receivers.SharedThemeReceiver"
+503-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:59:13-76
+504            android:enabled="true"
+504-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:60:13-35
+505            android:exported="true" >
+505-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:61:13-36
+506            <intent-filter>
+506-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:62:13-65:29
+507                <action android:name="com.goodwy.commons.SHARED_THEME_ACTIVATED" />
+507-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:63:17-84
+507-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:63:25-81
+508                <action android:name="com.goodwy.commons.SHARED_THEME_UPDATED" />
+508-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:64:17-82
+508-->[commons-debug.aar] /home/ich/.gradle/caches/transforms-3/7b7a23854d14ff7974d9cdeb6552e87e/transformed/jetified-commons-debug/AndroidManifest.xml:64:25-79
+509            </intent-filter>
+510        </receiver>
+511
+512        <provider
+512-->[androidx.emoji2:emoji2:1.2.0] /home/ich/.gradle/caches/transforms-3/0c4185eff32ee43c1ff091c347e1af34/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+513            android:name="androidx.startup.InitializationProvider"
+513-->[androidx.emoji2:emoji2:1.2.0] /home/ich/.gradle/caches/transforms-3/0c4185eff32ee43c1ff091c347e1af34/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+514            android:authorities="com.goodwy.dialer.androidx-startup"
+514-->[androidx.emoji2:emoji2:1.2.0] /home/ich/.gradle/caches/transforms-3/0c4185eff32ee43c1ff091c347e1af34/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+515            android:exported="false" >
+515-->[androidx.emoji2:emoji2:1.2.0] /home/ich/.gradle/caches/transforms-3/0c4185eff32ee43c1ff091c347e1af34/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+516            <meta-data
+516-->[androidx.emoji2:emoji2:1.2.0] /home/ich/.gradle/caches/transforms-3/0c4185eff32ee43c1ff091c347e1af34/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+517                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+517-->[androidx.emoji2:emoji2:1.2.0] /home/ich/.gradle/caches/transforms-3/0c4185eff32ee43c1ff091c347e1af34/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+518                android:value="androidx.startup" />
+518-->[androidx.emoji2:emoji2:1.2.0] /home/ich/.gradle/caches/transforms-3/0c4185eff32ee43c1ff091c347e1af34/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+519            <meta-data
+519-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ich/.gradle/caches/transforms-3/d9e86ab3e2a5d52de01320a3c560b82c/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+520                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+520-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ich/.gradle/caches/transforms-3/d9e86ab3e2a5d52de01320a3c560b82c/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+521                android:value="androidx.startup" />
+521-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ich/.gradle/caches/transforms-3/d9e86ab3e2a5d52de01320a3c560b82c/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+522        </provider>
+523
+524        <meta-data
+524-->[com.android.billingclient:billing:4.0.0] /home/ich/.gradle/caches/transforms-3/b6b9402856e169d29d3f08233685e3b0/transformed/jetified-billing-4.0.0/AndroidManifest.xml:13:9-15:37
+525            android:name="com.google.android.play.billingclient.version"
+525-->[com.android.billingclient:billing:4.0.0] /home/ich/.gradle/caches/transforms-3/b6b9402856e169d29d3f08233685e3b0/transformed/jetified-billing-4.0.0/AndroidManifest.xml:14:13-73
+526            android:value="4.0.0" />
+526-->[com.android.billingclient:billing:4.0.0] /home/ich/.gradle/caches/transforms-3/b6b9402856e169d29d3f08233685e3b0/transformed/jetified-billing-4.0.0/AndroidManifest.xml:15:13-34
+527
+528        <activity
+528-->[com.android.billingclient:billing:4.0.0] /home/ich/.gradle/caches/transforms-3/b6b9402856e169d29d3f08233685e3b0/transformed/jetified-billing-4.0.0/AndroidManifest.xml:17:9-21:75
+529            android:name="com.android.billingclient.api.ProxyBillingActivity"
+529-->[com.android.billingclient:billing:4.0.0] /home/ich/.gradle/caches/transforms-3/b6b9402856e169d29d3f08233685e3b0/transformed/jetified-billing-4.0.0/AndroidManifest.xml:18:13-78
+530            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+530-->[com.android.billingclient:billing:4.0.0] /home/ich/.gradle/caches/transforms-3/b6b9402856e169d29d3f08233685e3b0/transformed/jetified-billing-4.0.0/AndroidManifest.xml:19:13-96
+531            android:exported="false"
+531-->[com.android.billingclient:billing:4.0.0] /home/ich/.gradle/caches/transforms-3/b6b9402856e169d29d3f08233685e3b0/transformed/jetified-billing-4.0.0/AndroidManifest.xml:20:13-37
+532            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+532-->[com.android.billingclient:billing:4.0.0] /home/ich/.gradle/caches/transforms-3/b6b9402856e169d29d3f08233685e3b0/transformed/jetified-billing-4.0.0/AndroidManifest.xml:21:13-72
+533    </application>
+534
+535</manifest>
