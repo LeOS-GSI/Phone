@@ -29,7 +29,7 @@
         android:layout_alignParentBottom="true"
         android:focusableInTouchMode="true">
 
-        <com.goodwy.commons.views.MyEditText
+        <com.leos.commons.views.MyEditText
             android:id="@+id/dialpad_input"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -47,7 +47,7 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:text="+1234567890"/>
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/dialpad_add_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
             app:layout_constraintTop_toBottomOf="@+id/dialpad_input"
             tools:visibility="visible"/>
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/dialpad_placeholder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,14 +84,14 @@
             app:layout_constraintTop_toBottomOf="@+id/dialpad_add_number"
             tools:visibility="visible"/>
 
-        <com.goodwy.commons.views.MyRecyclerView
+        <com.leos.commons.views.MyRecyclerView
             android:id="@+id/dialpad_list"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:clipToPadding="false"
             android:scrollbars="none"
             android:visibility="gone"
-            app:layoutManager="com.goodwy.commons.views.MyLinearLayoutManager"
+            app:layoutManager="com.leos.commons.views.MyLinearLayoutManager"
             app:layout_constraintBottom_toTopOf="@+id/dialpad_call_button_holder"
             app:layout_constraintTop_toBottomOf="@+id/dialpad_add_number"/>
 

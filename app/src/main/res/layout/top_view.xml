@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/ic_person" />
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/call_history_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

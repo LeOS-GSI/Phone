@@ -119,7 +119,7 @@
             app:layout_constraintTop_toBottomOf="@+id/item_history_name"
             tools:ignore="AllCaps" />
 
-        <com.goodwy.commons.views.MyRecyclerView
+        <com.leos.commons.views.MyRecyclerView
             android:id="@+id/select_history_calls_list"
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -130,7 +130,7 @@
             android:clipToPadding="false"
             android:padding="@dimen/medium_margin"
             android:scrollbars="none"
-            app:layoutManager="com.goodwy.commons.views.MyLinearLayoutManager"
+            app:layoutManager="com.leos.commons.views.MyLinearLayoutManager"
             app:layout_constraintTop_toBottomOf="@+id/oneButton" />
 
         <androidx.appcompat.widget.AppCompatButton

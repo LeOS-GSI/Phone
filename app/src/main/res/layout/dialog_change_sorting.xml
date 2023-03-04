@@ -19,19 +19,19 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/medium_margin">
 
-            <com.goodwy.commons.views.MyCompatRadioButton
+            <com.leos.commons.views.MyCompatRadioButton
                 android:id="@+id/sorting_dialog_radio_full_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/full_name" />
 
-            <com.goodwy.commons.views.MyCompatRadioButton
+            <com.leos.commons.views.MyCompatRadioButton
                 android:id="@+id/sorting_dialog_radio_date_created"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/date_created" />
 
-            <com.goodwy.commons.views.MyCompatRadioButton
+            <com.leos.commons.views.MyCompatRadioButton
                 android:id="@+id/sorting_dialog_radio_custom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -49,13 +49,13 @@
             android:layout_marginTop="@dimen/medium_margin"
             android:paddingBottom="@dimen/medium_margin">
 
-            <com.goodwy.commons.views.MyCompatRadioButton
+            <com.leos.commons.views.MyCompatRadioButton
                 android:id="@+id/sorting_dialog_radio_ascending"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ascending" />
 
-            <com.goodwy.commons.views.MyCompatRadioButton
+            <com.leos.commons.views.MyCompatRadioButton
                 android:id="@+id/sorting_dialog_radio_descending"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

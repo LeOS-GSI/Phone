@@ -27,13 +27,13 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <com.goodwy.commons.views.MyRecyclerView
+        <com.leos.commons.views.MyRecyclerView
             android:id="@+id/conference_calls_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbars="none"
-            app:layoutManager="com.goodwy.commons.views.MyLinearLayoutManager"
+            app:layoutManager="com.leos.commons.views.MyLinearLayoutManager"
             tools:listitem="@layout/item_conference_call" />
 
     </FrameLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.goodwy.dialer"
+    package="com.leos.dialer"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -35,12 +35,12 @@
     <queries>
         <package android:name="com.leos.phone" />
         <package android:name="com.leos.phone" />
-        <package android:name="com.goodwy.contacts.debug" />
-        <package android:name="com.goodwy.contacts" />
-        <package android:name="com.goodwy.smsmessenger.debug" />
-        <package android:name="com.goodwy.smsmessenger" />
-        <package android:name="com.goodwy.voicerecorder.debug" />
-        <package android:name="com.goodwy.voicerecorder" />
+        <package android:name="com.leos.contacts.debug" />
+        <package android:name="com.leos.contacts" />
+        <package android:name="com.leos.smsmessenger.debug" />
+        <package android:name="com.leos.smsmessenger" />
+        <package android:name="com.leos.voicerecorder.debug" />
+        <package android:name="com.leos.voicerecorder" />
     </queries>
 
     <application
@@ -71,19 +71,19 @@
         </activity>
 
         <activity
-            android:name="com.goodwy.commons.activities.AboutActivity"
+            android:name="com.leos.commons.activities.AboutActivity"
             android:exported="false"
             android:label="@string/about"
             android:parentActivityName=".activities.MainActivity" />
 
         <activity
-            android:name="com.goodwy.commons.activities.CustomizationActivity"
+            android:name="com.leos.commons.activities.CustomizationActivity"
             android:exported="false"
             android:label="@string/customize_colors"
             android:parentActivityName=".activities.SettingsActivity" />
 
         <activity
-            android:name="com.goodwy.commons.activities.ManageBlockedNumbersActivity"
+            android:name="com.leos.commons.activities.ManageBlockedNumbersActivity"
             android:exported="false"
             android:label="@string/blocked_numbers"
             android:parentActivityName=".activities.SettingsActivity" />
@@ -203,8 +203,8 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.goodwy.dialer.action.ACCEPT_CALL" />
-                <action android:name="com.goodwy.dialer.action.DECLINE_CALL" />
+                <action android:name="com.leos.dialer.action.ACCEPT_CALL" />
+                <action android:name="com.leos.dialer.action.DECLINE_CALL" />
             </intent-filter>
         </receiver>
 

@@ -11,20 +11,20 @@ index acd89b1..d4f4a20 100755
         buildConfigField("String", "GOOGLE_PLAY_LICENSING_KEY", "\"${getProperty(getProperties('local.properties'), 'GOOGLE_PLAY_LICENSE_KEY')}\"")
          buildConfigField("String", "PRODUCT_ID_X1", "\"${getProperty(getProperties('local.properties'), 'PRODUCT_ID_X1')}\"")
          buildConfigField("String", "PRODUCT_ID_X2", "\"${getProperty(getProperties('local.properties'), 'PRODUCT_ID_X2')}\"")
-diff --git a/app/build/generated/source/buildConfig/fdroid/debug/com/goodwy/dialer/BuildConfig.java b/app/build/generated/source/buildConfig/fdroid/debug/com/goodwy/dialer/BuildConfig.java
+diff --git a/app/build/generated/source/buildConfig/fdroid/debug/com.leos/dialer/BuildConfig.java b/app/build/generated/source/buildConfig/fdroid/debug/com.leos/dialer/BuildConfig.java
 deleted file mode 100644
 index 4623bb5..0000000
---- a/app/build/generated/source/buildConfig/fdroid/debug/com/goodwy/dialer/BuildConfig.java
+--- a/app/build/generated/source/buildConfig/fdroid/debug/com.leos/dialer/BuildConfig.java
 +++ /dev/null
 @@ -1,21 +0,0 @@
 -/**
 - * Automatically generated file. DO NOT MODIFY
 - */
--package com.goodwy.dialer;
+-package com.leos.dialer;
 -
 -public final class BuildConfig {
 -  public static final boolean DEBUG = Boolean.parseBoolean("true");
--  public static final String APPLICATION_ID = "com.goodwy.dialer";
+-  public static final String APPLICATION_ID = "com.leos.dialer";
 -  public static final String BUILD_TYPE = "debug";
 -  public static final String FLAVOR = "fdroid";
 -  public static final int VERSION_CODE = 1;
@@ -51,7 +51,7 @@ index b8da4db..7ad3588 100644
      "kind": "Directory"
    },
 -  "applicationId": "com.leos.phone",
-+  "applicationId": "com.goodwy.dialer",
++  "applicationId": "com.leos.dialer",
    "variantName": "fdroidRelease",
    "elements": [
      {
@@ -64,13 +64,13 @@ index b8da4db..7ad3588 100644
        "outputFile": "app-fdroid-release.apk"
      }
    ],
-diff --git a/app/src/main/kotlin/com/goodwy/dialer/App.kt b/app/src/main/kotlin/com/goodwy/dialer/App.kt
+diff --git a/app/src/main/kotlin/com.leos/dialer/App.kt b/app/src/main/kotlin/com.leos/dialer/App.kt
 old mode 100755
 new mode 100644
-diff --git a/app/src/main/kotlin/com/goodwy/dialer/activities/SettingsActivity.kt b/app/src/main/kotlin/com/goodwy/dialer/activities/SettingsActivity.kt
+diff --git a/app/src/main/kotlin/com.leos/dialer/activities/SettingsActivity.kt b/app/src/main/kotlin/com.leos/dialer/activities/SettingsActivity.kt
 index 1c1d3ef..8dec553 100755
---- a/app/src/main/kotlin/com/goodwy/dialer/activities/SettingsActivity.kt
-+++ b/app/src/main/kotlin/com/goodwy/dialer/activities/SettingsActivity.kt
+--- a/app/src/main/kotlin/com.leos/dialer/activities/SettingsActivity.kt
++++ b/app/src/main/kotlin/com.leos/dialer/activities/SettingsActivity.kt
 @@ -36,8 +36,6 @@ class SettingsActivity : SimpleActivity() {
          super.onResume()
          setupToolbar(settings_toolbar, NavigationIcon.Arrow)
@@ -145,13 +145,13 @@ index 0966bbb..a2155d1 100755
 -                    android:layout_toRightOf="@+id/purchase_logo"
 -                    android:layout_centerVertical="true">
 -
--                    <com.goodwy.commons.views.MyTextView
+-                    <com.leos.commons.views.MyTextView
 -                        android:id="@+id/settings_purchase_thank_you"
 -                        android:layout_width="wrap_content"
 -                        android:layout_height="wrap_content"
 -                        android:text="@string/action_support_project"/>
 -
--                    <com.goodwy.commons.views.MyTextView
+-                    <com.leos.commons.views.MyTextView
 -                        android:id="@+id/about_app_version"
 -                        android:layout_width="match_parent"
 -                        android:layout_height="wrap_content"
@@ -190,12 +190,12 @@ index 0966bbb..a2155d1 100755
 -                android:id="@+id/settings_customize_colors_holder"
 -                style="@style/SettingsHolderSwitchStyle">
  
--                <com.goodwy.commons.views.MyTextView
+-                <com.leos.commons.views.MyTextView
 -                    android:id="@+id/settings_customize_colors_label"
 -                    style="@style/SettingsTextLabelStyle"
 -                    android:text="@string/customize_colors" />
 -
--                <com.goodwy.commons.views.MyTextView
+-                <com.leos.commons.views.MyTextView
 -                    android:id="@+id/settings_customize_colors_summary"
 -                    style="@style/SettingsTextSummaryStyle"
 -                    android:layout_below="@+id/settings_customize_colors_label"

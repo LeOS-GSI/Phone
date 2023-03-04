@@ -6,7 +6,7 @@ index 59011f2..fd9a1b4 100755
      compileSdkVersion 33
  
      defaultConfig {
--        applicationId "com.goodwy.dialer"
+-        applicationId "com.leos.dialer"
 +        applicationId "com.leos.phone"
          minSdkVersion 23
          targetSdkVersion 33

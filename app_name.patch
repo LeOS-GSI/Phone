@@ -1,7 +1,7 @@
-diff --git a/app/src/main/kotlin/com/goodwy/dialer/activities/DialerActivity.kt b/app/src/main/kotlin/com/goodwy/dialer/activities/DialerActivity.kt
+diff --git a/app/src/main/kotlin/com.leos/dialer/activities/DialerActivity.kt b/app/src/main/kotlin/com.leos/dialer/activities/DialerActivity.kt
 index 855033c..39cd164 100755
---- a/app/src/main/kotlin/com/goodwy/dialer/activities/DialerActivity.kt
-+++ b/app/src/main/kotlin/com/goodwy/dialer/activities/DialerActivity.kt
+--- a/app/src/main/kotlin/com.leos/dialer/activities/DialerActivity.kt
++++ b/app/src/main/kotlin/com.leos/dialer/activities/DialerActivity.kt
 @@ -21,7 +21,7 @@ class DialerActivity : SimpleActivity() {
          if (intent.action == Intent.ACTION_CALL && intent.data != null) {
              callNumber = intent.data

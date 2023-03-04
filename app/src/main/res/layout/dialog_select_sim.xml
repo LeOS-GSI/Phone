@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="@dimen/activity_margin">
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/select_sim_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         android:paddingTop="@dimen/medium_margin"
         android:paddingBottom="@dimen/medium_margin">
 
-        <com.goodwy.commons.views.MyAppCompatCheckbox
+        <com.leos.commons.views.MyAppCompatCheckbox
             android:id="@+id/select_sim_remember"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

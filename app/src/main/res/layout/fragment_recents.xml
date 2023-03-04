@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.goodwy.dialer.fragments.RecentsFragment xmlns:android="http://schemas.android.com/apk/res/android"
+<com.leos.dialer.fragments.RecentsFragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/recents_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/recents_placeholder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:textStyle="italic"
         android:visibility="gone" />
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/recents_placeholder_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         android:textSize="@dimen/bigger_text_size"
         android:visibility="gone" />
 
-    <com.goodwy.commons.views.MyRecyclerView
+    <com.leos.commons.views.MyRecyclerView
         android:id="@+id/recents_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -42,6 +42,6 @@
         android:layoutAnimation="@anim/layout_animation"
         android:scrollbarThumbVertical="@drawable/fastscroller_handle_vertical_gray"
         android:scrollbars="vertical"
-        app:layoutManager="com.goodwy.commons.views.MyLinearLayoutManager" />
+        app:layoutManager="com.leos.commons.views.MyLinearLayoutManager" />
 
-</com.goodwy.dialer.fragments.RecentsFragment>
+</com.leos.dialer.fragments.RecentsFragment>

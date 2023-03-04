@@ -8,14 +8,14 @@
     android:paddingBottom="12dp"
     android:paddingStart="8dp">
 
-    <com.goodwy.commons.views.MyRecyclerView
+    <com.leos.commons.views.MyRecyclerView
         android:id="@+id/select_contact_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipToPadding="false"
         android:scrollbars="none"
         android:layout_marginEnd="8dp"
-        app:layoutManager="com.goodwy.commons.views.MyLinearLayoutManager" />
+        app:layoutManager="com.leos.commons.views.MyLinearLayoutManager" />
 
     <com.reddit.indicatorfastscroll.FastScrollerView
         android:id="@+id/letter_fastscroller"

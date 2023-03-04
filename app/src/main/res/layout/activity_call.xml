@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.05"
         tools:src="@drawable/ic_call_accept" />
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/caller_name_label"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/caller_avatar"
         tools:text="Caller name" />
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/caller_number"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/caller_name_label"
         tools:text="0912 345 678" />
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/call_status_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_phone_vector" />
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/on_hold_caller_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="0912 345 678" />
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/on_hold_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -411,7 +411,7 @@
                 android:layout_above="@+id/dialpad_include"
                 android:gravity="center">
 
-                <com.goodwy.commons.views.MyEditText
+                <com.leos.commons.views.MyEditText
                     android:id="@+id/dialpad_input"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -468,7 +468,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.85" />
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/call_decline_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -493,7 +493,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.85" />
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/call_accept_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

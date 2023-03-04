@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/fragment_placeholder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
             android:textStyle="italic"
             android:visibility="gone" />
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/fragment_placeholder_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
             android:textSize="@dimen/bigger_text_size"
             android:visibility="gone" />
 
-        <com.goodwy.commons.views.MyRecyclerView
+        <com.leos.commons.views.MyRecyclerView
             android:id="@+id/fragment_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -43,7 +43,7 @@
             android:layoutAnimation="@anim/layout_animation"
             android:paddingBottom="64dp"
             android:scrollbars="none"
-            app:layoutManager="com.goodwy.commons.views.MyLinearLayoutManager"/>
+            app:layoutManager="com.leos.commons.views.MyLinearLayoutManager"/>
 
         <com.reddit.indicatorfastscroll.FastScrollerView
             android:id="@+id/letter_fastscroller"

@@ -14,7 +14,7 @@
         android:paddingTop="@dimen/activity_margin"
         android:paddingEnd="@dimen/activity_margin">
 
-        <com.goodwy.commons.views.MyAppCompatCheckbox
+        <com.leos.commons.views.MyAppCompatCheckbox
             android:id="@+id/manage_visible_tabs_favorites"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
             android:paddingBottom="@dimen/activity_margin"
             android:text="@string/favorites"/>
 
-        <com.goodwy.commons.views.MyAppCompatCheckbox
+        <com.leos.commons.views.MyAppCompatCheckbox
             android:id="@+id/manage_visible_tabs_call_history"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:paddingBottom="@dimen/activity_margin"
             android:text="@string/recents"/>
 
-        <com.goodwy.commons.views.MyAppCompatCheckbox
+        <com.leos.commons.views.MyAppCompatCheckbox
             android:id="@+id/manage_visible_tabs_contacts"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
