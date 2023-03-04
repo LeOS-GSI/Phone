@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.goodwy.dialer",
+  "applicationId": "com.leos.dialer",
   "variantName": "fdroidRelease",
   "elements": [
     {

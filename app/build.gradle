@@ -12,7 +12,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.goodwy.dialer"
+        applicationId "com.leos.dialer"
         minSdkVersion 26
         targetSdkVersion 33
         versionCode 001
